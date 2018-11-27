@@ -1,0 +1,29 @@
+.Blog ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #65C6BB;
+  border-bottom: 1px solid #eee;
+}
+
+.Blog li {
+  display: inline-block;
+  margin: 15px 0px;
+}
+
+.Blog a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+.Blog nav a:hover,  a.active {
+  color: white;
+  background-color: #1BA39C;
+}
+
+.Blog {
+  height: 100%;
+}
